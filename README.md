@@ -17,6 +17,12 @@ deploying the application in different environments.
 
 Documentation is at [docs/guide/README.md](docs/guide/README.md).
 
+<h1>Instructions</h1>
+1. Clone the repository into your desired folder
+2. Once done, open your terminal (make sure to change the directory to the folder you just downloaded) and write, php yii init
+3. After that, run composer update
+4. Finally write and run php yii migrate in the terminal (make sure that the dbname in common > config > local-main.php the is set to testing example, dbname = testing
+
 [![Latest Stable Version](https://img.shields.io/packagist/v/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
 [![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
 [![build](https://github.com/yiisoft/yii2-app-advanced/workflows/build/badge.svg)](https://github.com/yiisoft/yii2-app-advanced/actions?query=workflow%3Abuild)
